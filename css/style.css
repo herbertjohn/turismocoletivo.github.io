@@ -1,11 +1,32 @@
-.item-do-calendario{
+.item-do-calendario-direita{
   display: block;
   width: 400px;
   float: left;
-  padding: 30px;
+  padding: 40px;
+ 
+
+}
+.item-do-calendario-centro{
+  display: block;
+  width: 400px;
+  padding: 40px;
+  margin-left:auto;
+  margin-right:auto;
 
 
 }
+.item-do-calendario-esquerda{
+  display: block;
+  width: 400px;
+  float: right;
+  padding: 40px;
+
+
+
+}
+
+
+
 
 body {
 	background: #fff;
