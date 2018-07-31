@@ -1,6 +1,6 @@
 .item-do-calendario-direita{
   display: block;
-  width: 420px;
+  width: 450px;
   float: left;
   padding: 20px;
  
@@ -8,7 +8,7 @@
 }
 .item-do-calendario-centro{
   display: block;
-  width: 420px;
+  width: 450px;
   padding: 20px;
   margin-left:auto;
   margin-right:auto;
@@ -17,7 +17,7 @@
 }
 .item-do-calendario-esquerda{
   display: block;
-  width: 420px;
+  width: 450px;
   float: right;
   padding: 20px;
 
