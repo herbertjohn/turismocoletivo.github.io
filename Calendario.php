@@ -1,9 +1,5 @@
 <?php  
-
 session_start();
-
-
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,159 +29,276 @@ session_start();
     <?php include("cabecalio.php"); ?>
     <!-- END header -->
 
-   
-
     <div class="site-section bg-light">
       <div class="container">
-        <div class="row">
-          
-          <div class="col-md-10 col-lg-12 order-md-2">
+        <div class="row justify-content-center mb-5 element-animate">
+          <div class="col-md-7 text-center section-heading">
+            <h2 class="text-primary heading">PROGRAMESSE</h2>
+            <p>Roteiros de passeios agêndados em Mato Grosso.</p>
+           
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-12 order-md-2">
             <div class="row">
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\aguas-do-cerrado.php"><img src="images/águas do cerrado.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/cidade de pedra.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Cidade de Pedras</a></h2>
+                      <p class="mb-4">Circuito de cachoeiras, trilha tranquila com várias opções de banho e cachoeiras para contemplação. Além da opção de almoço incluso no passeio.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>2,219/6,000</span>
+                        </div>
+                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                    <figure>
+                      <a href="course-single.html"><img src="images/águas do cerrado.jpg" alt="Image" class="img-fluid"></a>
+                    </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Caminho das Águas</a></h2>
+                      <p class="mb-4">Circuito de 7 cachoeiras com belezas cênicas em uma variedade de ambientes, além da contemplação de diferentes espécies de flora e fauna do Cerrado </p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>1,903/3,000</span>
+                        </div>
+                        <div class="price text-right"><span>$10.99</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\aguas-do-cerrado.php">Águas do Cerrado</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Cachoeira do Pingador</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\caminho-das-aguas.php"><img src="images/caminho das águas.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Circuito das Cavernas</a></h2>
+                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>2,219/6,000</span>
+                        </div>
+                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                    <figure>
+                      <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Boia Cros Rio Paciência</a></h2>
+                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>1,903/3,000</span>
+                        </div>
+                        <div class="price text-right"><span>$10.99</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="images/vale do rio claro.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\caminho-das-aguas.php">Circuito de cachoeiras do Parque Nacional de Chapada dos Guimarães</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Vale do Rio Claro e Poço das Antas</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="cidade-de-pedra.php"><img src="images/cidade de pedra.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/morro de são jerônimo.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Morro de São Jerônimo</a></h2>
+                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>2,219/6,000</span>
+                        </div>
+                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                    <figure>
+                      <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="#">Cachoeira do Indío e Jamacá</a></h2>
+                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>1,903/3,000</span>
+                        </div>
+                        <div class="price text-right"><span>$10.99</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\cidade-de-pedra.php">Cidade de Pedra e Circuito de Cachoeiras</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Cachoeira da Geladeira</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+            
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="Vale-da-Lua.php"><img src="images/vale da lua.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\Vale-da-Lua.php">Vale da Lua</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Cachoeira da Tartaruga</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\vale-do-rio-claro.php"><img src="images/vale do rio claro.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\vale-do-rio-claro.php">Vale do rio claro e poço das antas</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Trilha Histórica Rio da Casca</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\morro-de-sao-jeronimo.php"><img src="images/morro de são jerônimo.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\morro-de-sao-jeronimo.php"">Morro de São Jerônimo</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Morro do Cambambe e Cachoeiras</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\Vale-da-Lua.php"><img src="images/vale da lua.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\Vale-da-Lua.php"">Vale da Lua</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Rapel Cachoeira do Marimbondo</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
                   <figure>
-                    <a href="destinos\caminho-das-aguas.php"><img src="images/caminho das águas.jpg" alt="" class="img-fluid"></a>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h3 class="heading"><a href="destinos\caminho-das-aguas.php">Caminho das Águas</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    <h2 class="heading"><a href="#">Voos de Paramotor</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-12 col-lg-4 mb-5">
-                <div class="block-20 ">
-                  <figure>
-                    <a href="#"><img src="images/cidade de pedra.jpg" alt="" class="img-fluid"></a>
-                  </figure>
-                  <div class="text">
-                    <h3 class="heading"><a href="destinos\cidade-de-pedra.php">Cidade de Pedra</a></h3>
-                    <div class="meta">
-                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               
+
+
+
+              </div>  
+            </div>
+
+            </div>
+
+            </div>
+
             </div>
 
             <div class="mb-5">
@@ -201,9 +314,8 @@ session_start();
                 </div>
               </div>
             </div>
-          </div></div></div></div>
-          <!-- END content -->
-         
+          </div>
+
     <!-- END section -->
 
 <?php include("rodape.php"); ?>          

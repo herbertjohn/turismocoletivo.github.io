@@ -48,206 +48,111 @@ session_start();
 
 
 
-          <div class="col-md-6 col-lg-12 order-md-2">
+           <div class="">
+      <div class="">
+        <div class="">
+          
+          <div class="col-md-10 col-lg-12 order-md-2">
             <div class="row">
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20">
                   <figure>
-                    <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Advanced JavaScript Learning</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>2,219/6,000</span>
-                        </div>
-                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                      </div>
-                    </div>
-                  </div>
-                
-              </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                
-                  <div class="block-19">
-                    <figure>
-                      <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                    </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Introduction to CSS</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>1,903/3,000</span>
-                        </div>
-                        <div class="price text-right"><span>$10.99</span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
-                  <figure>
-                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="destinos\aguas-do-cerrado.php"><img src="images/águas do cerrado.jpg" alt="" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Design &amp; Develop</a></h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                    <div class="meta d-flex align-items-center">
-                      <div class="number">
-                        <span>23/100</span>
-                      </div>
-                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
+                    <h3 class="heading"><a href="destinos\aguas-do-cerrado.php">Aldeia Indígena Quatro Cachoeiras</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20 ">
                   <figure>
-                    <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Advanced JavaScript Learning</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>2,219/6,000</span>
-                        </div>
-                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                      </div>
-                    </div>
-                  </div>
-                
-              </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                
-                  <div class="block-19">
-                    <figure>
-                      <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                    </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Introduction to CSS</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>1,903/3,000</span>
-                        </div>
-                        <div class="price text-right"><span>$10.99</span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
-                  <figure>
-                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="destinos\caminho-das-aguas.php"><img src="images/caminho das águas.jpg" alt="" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Design &amp; Develop</a></h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                    <div class="meta d-flex align-items-center">
-                      <div class="number">
-                        <span>23/100</span>
-                      </div>
-                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
+                    <h3 class="heading"><a href="destinos\caminho-das-aguas.php">Aldeia Indígena Utiariti e Salto Utiariti</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20 ">
                   <figure>
-                    <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Advanced JavaScript Learning</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>2,219/6,000</span>
-                        </div>
-                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                      </div>
-                    </div>
-                  </div>
-                
-              </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                
-                  <div class="block-19">
-                    <figure>
-                      <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                    </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Introduction to CSS</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>1,903/3,000</span>
-                        </div>
-                        <div class="price text-right"><span>$10.99</span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
-                  <figure>
-                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="cidade-de-pedra.php"><img src="images/cidade de pedra.jpg" alt="" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Design &amp; Develop</a></h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                    <div class="meta d-flex align-items-center">
-                      <div class="number">
-                        <span>23/100</span>
-                      </div>
-                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
+                    <h3 class="heading"><a href="destinos\cidade-de-pedra.php">Aldeia Indígena Ponte de Pedra</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="block-19">
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20 ">
                   <figure>
-                    <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="Vale-da-Lua.php"><img src="images/vale da lua.jpg" alt="" class="img-fluid"></a>
                   </figure>
-                    <div class="text">
-                      <h2 class="heading"><a href="#">Advanced JavaScript Learning</a></h2>
-                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
-                      <div class="meta d-flex align-items-center">
-                        <div class="number">
-                          <span>2,219/6,000</span>
-                        </div>
-                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                      </div>
+                  <div class="text">
+                    <h3 class="heading"><a href="destinos\Vale-da-Lua.php">Aldeia Indígena Wazare</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
                     </div>
                   </div>
-                
-              </div>
-
-            </div>
-
-            <div class="mb-5">
-              <div class="col-md-12 text-center">
-                <div class="block-27">
-                  <ul>
-                    <li><a href="#">&lt;</a></li>
-                    <li class="active"><span>1</span></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">&gt;</a></li>
-                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
 
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20 ">
+                  <figure>
+                    <a href="destinos\vale-do-rio-claro.php"><img src="images/vale do rio claro.jpg" alt="" class="img-fluid"></a>
+                  </figure>
+                  <div class="text">
+                    <h3 class="heading"><a href="destinos\vale-do-rio-claro.php">Vale do rio claro e poço das antas</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-lg-4 mb-5">
+                <div class="block-20 ">
+                  <figure>
+                    <a href="destinos\morro-de-sao-jeronimo.php"><img src="images/morro de são jerônimo.jpg" alt="" class="img-fluid"></a>
+                  </figure>
+                  <div class="text">
+                    <h3 class="heading"><a href="destinos\morro-de-sao-jeronimo.php"">Morro de São Jerônimo</a></h3>
+                    <div class="meta">
+                      <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
+                      <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
+                      <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+
+           
+          </div></div></div></div> </div>
+          
     <!-- END section -->
 
 
