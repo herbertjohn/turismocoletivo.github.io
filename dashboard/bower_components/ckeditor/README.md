@@ -69,11 +69,11 @@ The editor comes with a sample page that can be used to verify if the installati
 
 To test your installation, just call the following page for your website:
 
-	http://<your site>/<CKEditor installation path>/samples/index.html
+	http://<your site>/<CKEditor installation path>/samples/index.php
 
 For example:
 
-	http://www.example.com/ckeditor/samples/index.html
+	http://www.example.com/ckeditor/samples/index.php
 
 ### License
 

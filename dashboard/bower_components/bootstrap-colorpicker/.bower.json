@@ -9,7 +9,7 @@
   },
   "ignore": [
     "\\.*",
-    "/index.html",
+    "/index.php",
     "/package.json",
     "/composer.json",
     "/Gruntfile.js",

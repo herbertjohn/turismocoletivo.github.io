@@ -7,7 +7,7 @@
 ***
 
 * Версия: 2.2.0
-* <a href="http://ionden.com/a/plugins/ion.rangeSlider/index.html">Страница проекта и демо</a>
+* <a href="http://ionden.com/a/plugins/ion.rangeSlider/index.php">Страница проекта и демо</a>
 * <a href="http://ionden.com/a/plugins/ion.rangeSlider/ion.rangeSlider-2.2.0.zip">Загрузить ZIP-архив</a>
 
 ## Описание

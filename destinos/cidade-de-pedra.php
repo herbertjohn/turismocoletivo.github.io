@@ -1,3 +1,6 @@
+<?php  
+session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -30,66 +33,8 @@
   </head>
   <body>
     
-    <header role="banner">
-     
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand absolute" href="../index.html"><img src="../images/logo com nome.png" width="300" height="45" alt="Turismo Coletivo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+         <?php include("cabecalio.php"); ?>
 
-          <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-              <li class="nav-item">
-                <a class="nav-link active" href="../destinos.html">Destinos</a>
-              </li>
-                <a class="nav-link active" href="../calendario.html">Calendário</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../destinos.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pacotes</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="../passeio.html">Reserva do Cabaçal</a>
-                  <a class="dropdown-item" href="../passeio.html">Chapada dos Guimarães</a>
-                  <a class="dropdown-item" href="../passeio.html">Campo Novo do Parecis</a>
-                  <a class="dropdown-item" href="../passeio.html">Nobres</a>
-                  <a class="dropdown-item" href="../destinos\pantanal.html">Pantanal</a>
-                </div>
-
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="../ecoturismo.html">Ecoturismo</a>
-                  <a class="dropdown-item" href="../experiencia.html">Experiência</a>
-                  <a class="dropdown-item" href="../esportivo.html">Esportivo</a>
-                  <a class="dropdown-item" href="../aventura.html">Aventura</a>
-                  <a class="dropdown-item" href="../natureza.html">Natureza</a>
-                </div>
-
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../news.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Contato.html">Contato</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav absolute-right">
-              <li>
-                <a href="../login.php">Login</a> / <a href="../register.html">Cadastro</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-    </header>
     <!-- END header -->
 
     <section class="site-hero site-sm-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(../images/big_image_2.jpg);">
@@ -98,8 +43,8 @@
           <div class="col-md-7 text-center">
   
             <div class="mb-5 element-animate">
-              <h1 class="mb-2">Vale da lua </h1>
-              <p class="bcrumb"><a href="../index.html">Início</a> <span class="sep ion-android-arrow-dropright px-2"></span> <a href="../destinos.html">Destinos</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Vale da Lua</span></p>
+              <h1 class="mb-2">Cidade de Pedra </h1>
+              <p class="bcrumb"><a href="../index.php">Início</a> <span class="sep ion-android-arrow-dropright px-2"></span> <a href="../destinos.php">Destinos</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Cidade de Pedra</span></p>
             </div>
             
           </div>
@@ -115,7 +60,7 @@
           
           <div class="col-md-6 col-lg-8 order-md-2 mb-5">
             <div class="row">
-              <div class="slideshow-passeio">
+              <div class="col-md-12">
                         <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
             <figure>
 		      <img src="../demo/img/ponte de pedra.jpg" width="100%" />
@@ -160,7 +105,7 @@ makeBSS('.num2', opts2);
             <section class="episodes">
               <div class="container">
                 <div class="row mb-5">
-                  <div class="slideshow-passeio pt-5">
+                  <div class="col-md-12 pt-5">
                     <h2>Descrição</h2>
                     <p>Circuito das cavernas em Chapada dos Guimarães. A trilha é de nível fácil com uma extensão de 6 km de ida sem demasiadas irregularidades no terreno. Além das belezas costumeiras do nosso cerrado esta trilha tem um diferencial: possui longos trechos de frescor proporcionados pelo cerradão com arbustos que lembram a floresta amazônica.</p>
                     <p>O trajeto inclui visita às cavernas Pob Jari, Aroe Jari e Kiogo Brado e à gruta Lagoa Azul e passagem pela Ponte de Pedra. No término da trilha, ainda pode-se refrescar na linda cachoeira do Relógio.
@@ -230,7 +175,7 @@ Término da trilha: Por volta das 16h</p>
       </div>
     </div>
 
-   <div class="site-section bg-light">
+    <div class="site-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-7 text-left section-heading">
@@ -247,7 +192,7 @@ Término da trilha: Por volta das 16h</p>
                   <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
                 </figure>
                 <div class="text">
-                  <h2 class="heading"><a href="aguas-do-cerrado.html">Circuito de cachoeiras Águas do Cerrado</a></h2>
+                  <h2 class="heading"><a href="aguas-do-cerrado.php">Circuito de cachoeiras Águas do Cerrado</a></h2>
                   <p class="mb-4">Trilha de fácil acesso pelo exuberante cerrado, totalizando 7km e meio ida e volta passando pelo pocinho do amor, por 5 Cachoeiras para banho e mais duas para contemplação. A maior chega a medir aproximadamente 30m de queda livre.</p>
                   <div class="meta d-flex align-items-center">
                     <div class="number">
@@ -265,7 +210,7 @@ Término da trilha: Por volta das 16h</p>
                   <img src="../images/img_3.jpg" alt="Image" class="img-fluid">
                 </figure>
                 <div class="text">
-                  <h2 class="heading"><a href="caminho-das-aguas.html">Circuito de Cachoeiras Caminho das Águas</a></h2>
+                  <h2 class="heading"><a href="caminho-das-aguas.php">Circuito de Cachoeiras Caminho das Águas</a></h2>
                   <p class="mb-4">De nível moderado, com alguns trechos em desnível, totaliza 7km ida e volta, passa pelas cachoeiras "Andorinha", "Prainha", "Degrau", "Pulo", "Sete de Setembro" e ainda pela Casa de Pedras, uma gruta histórica. Quem não conhece vale muito a pena conhecer e quem já conhece, vale a pena ver de novo.</p>
                   <div class="meta d-flex align-items-center">
                     <div class="number">
@@ -283,7 +228,7 @@ Término da trilha: Por volta das 16h</p>
                 <img src="../images/img_2.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="text">
-                <h2 class="heading"><a href="vale-do-rio-claro.html">Vale do Rio Claro - Crista do Galo e poço das Antas</a></h2>
+                <h2 class="heading"><a href="vale-do-rio-claro.php">Vale do Rio Claro - Crista do Galo e poço das Antas</a></h2>
                 <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
                 <div class="meta d-flex align-items-center">
                   <div class="number">
@@ -301,7 +246,7 @@ Término da trilha: Por volta das 16h</p>
                 <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="text">
-                <h2 class="heading"><a href="morro-de-sao-jeronimo.html">Morro de São Jerônimo</a></h2>
+                <h2 class="heading"><a href="morro-de-sao-jeronimo.php">Morro de São Jerônimo</a></h2>
                 <p class="mb-4">É uma caminhada que exige um pouco, mas é muito mágica! Visual maravilhoso durante todo o trajeto e muita adrenalina. A trilha perfaz um total de 14km ida e volta. Destes, há um percurso de 300 metros do que chamamos "escalaminhada" pois não requer uso de equipamentos para escalada. Durante a subida, há dois momentos que exigem mais, mas são transpostos com tranquilidade.</p>
                 <div class="meta d-flex align-items-center">
                   <div class="number">
@@ -319,7 +264,7 @@ Término da trilha: Por volta das 16h</p>
                   <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
                 </figure>
                 <div class="text">
-                  <h2 class="heading"><a href="Vale-da-Lua.html">Vale da lua</a></h2>
+                  <h2 class="heading"><a href="Vale-da-Lua.php">Vale da lua</a></h2>
                   <p class="mb-4">O belíssimo canyon no rio Jauquara nos aguarda com todo o seu encanto e com a segurança de sempre da nossa equipe. Trilha leve com muita água, vales, rochas e uma riquíssima flora. O trajeto de carro é de 150 km a partir de Cuiabá, sendo 38 de estrada de terra em boas condições.</p>
                   <div class="meta d-flex align-items-center">
                     <div class="number">
@@ -337,7 +282,7 @@ Término da trilha: Por volta das 16h</p>
                   <img src="../images/img_3.jpg" alt="Image" class="img-fluid">
                 </figure>
                 <div class="text">
-                  <h2 class="heading"><a href="vale-do-rio-claro.html">Crista do Galo e poço da Anta</a></h2>
+                  <h2 class="heading"><a href="vale-do-rio-claro.php">Crista do Galo e poço da Anta</a></h2>
                   <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
                   <div class="meta d-flex align-items-center">
                     <div class="number">
@@ -355,7 +300,7 @@ Término da trilha: Por volta das 16h</p>
                 <img src="../images/img_2.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="text">
-                <h2 class="heading"><a href="cidade-de-pedra.html">Cidade de pedras</a></h2>
+                <h2 class="heading"><a href="cidade-de-pedra.php">Cidade de pedras</a></h2>
                 <p class="mb-4">O percurso totaliza 2km ida e volta da mais pura beleza. O acesso de 10km até o início da trilha precisa ser de carro traçado já incluso no valor. Para viabilidade do passeio será necessário um grupo com no mínimo 5 pessoas e no máximo 12.</p>
                 <div class="meta d-flex align-items-center">
                   <div class="number">
@@ -373,7 +318,7 @@ Término da trilha: Por volta das 16h</p>
                 <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="text">
-                <h2 class="heading"><a href="Sitio-Arqueologico-Santa-Elina.html">Sítio Arqueológico Santa Elina - Jangada</a></h2>
+                <h2 class="heading"><a href="Sitio-Arqueologico-Santa-Elina.php">Sítio Arqueológico Santa Elina - Jangada</a></h2>
                 <p class="mb-4">Depois da Serra da Capivara, no Piauí, o Santa Elina é segundo mais antigo em vestígios de humanos. Nele foram encontrados cerca de 25 mil objetos que indicam a presença humana.</p>
                 <div class="meta d-flex align-items-center">
                   <div class="number">
@@ -433,116 +378,8 @@ Término da trilha: Por volta das 16h</p>
     <!-- END section -->
 
 
-    
-      
-    
-    <div class="py-5 block-22">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0 pr-md-5">
-            <h2 class="heading">Assine nosso Newsletter</h2>
-            <p>Recebá emails sobre novos destinos e pacotes de experiência em Mato Grosso.</p>
-          </div>
-          <div class="col-md-6">
-            <form action="#" class="subscribe">
-              <div class="form-group">
-                <input type="email" class="form-control email" placeholder="email">
-                <input type="submit" class="btn btn-primary submit" value="Increver">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-      <br>
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <h3><a href="../index.html">Turismo Coletivo</a></h3>
-            <p>Marketplace de destinos turísticos, com o objetivo de desenvolver e promover destinos de experiência em Mato Grosso. </p>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <h3 class="heading">Link Úteis</h3>
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="list-unstyled">
-                  <li><a href="../calendário.html">Calendário</a></li>
-                  <li><a href="../destinos.html">Destinos</a></li>
-                  <li><a href="../pacotes.html">Pacotes</a></li>
-                  <li><a href="../sobre.html">Sobre nós</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="list-unstyled">
-                  <li><a href="../news.html">Notícias</a></li>
-                  <li><a href="../suporte.html">Suporte</a></li>
-                  <li><a href="../privacidade.html">Privacidade</a></li>
-                  <li><a href="../contato.html">Contato</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <h3 class="heading">Blog</h3>
-            <div class="block-21 d-flex mb-4">
-              <div class="text">
-                <h3 class="heading mb-0"><a href="news.html">Cascata do Uirapuru ameaçada por hidrelétrica.</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                  <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
-                </div>
-              </div>
-            </div>  
-            <div class="block-21 d-flex mb-4">
-              <div class="text">
-                <h3 class="heading mb-0"><a href="#">Artigo 2</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                  <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
-                </div>
-              </div>
-            </div>  
-            <div class="block-21 d-flex mb-4">
-              <div class="text">
-                <h3 class="heading mb-0"><a href="#">Artigo 3</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="ion-android-calendar"></span> May 29, 2018</a></div>
-                  <div><a href="#"><span class="ion-android-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="ion-chatbubble"></span> 19</a></div>
-                </div>
-              </div>
-            </div>  
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <h3 class="heading">Contato para informações</h3>
-            <div class="block-23">
-              <ul>
-                <li><span class="icon ion-android-pin"></span><span class="text">Rua Frei Osvaldo, 66, Centro, Chapada dos Guimarães/MT</span></li>
-                <li><a href="#"><span class="icon ion-ios-telephone"></span><span class="text">+55 65 9 8407 8063</span></a></li>
-                <li><a href="#"><span class="icon ion-android-mail"></span><span class="text">contato@turismocoletivo.com.br</span></a></li>
-                <li><span class="icon ion-android-time"></span><span class="text">Abre de Segunda a sexta das 8 as 18 horas.</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5">
-          <div class="slideshow-passeio text-center copyright">
-            
-            <p class="float-md-left">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Turismo Coletivo</p>
-            <p class="float-md-right">
-              <a href="https://www.facebook.com/turismocoletivo" class="fa fa-facebook p-2"></a>
-              <a href="https://www.twitter.com/turismocoletivo" class="fa fa-twitter p-2"></a>
-              <a href="https://www.instagram.com/turismocoletivo" class="fa fa-instagram p-2"></a>
+       <?php include("rodape.php"); ?>
 
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
     <!-- END footer -->
     
     <!-- loader -->
