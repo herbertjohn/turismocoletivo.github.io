@@ -1,5 +1,26 @@
 <?php  
 session_start();
+$servidor = "localhost";
+$usuario = "john";
+$senha = "herbert";
+$dbname = "turismo-coletivo";
+
+//Criar a conexao
+$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+if(!$conn) {
+  die("Falha na conexao: " . mysqli_connect_error());
+  }else{
+
+    echo "Conexao realizada com sucesso";
+  }
+  $cadastrodepasseios = "INSERT INTO cadastro-de-passeios (nomedopasseio, descricao, fotodopasseio) VALUES (
+                  '" .$dado['nomedopasseio']. "',
+                  '" .$dado['descricao']. "',
+                  '" .$dado['fotodopasseio']. "',
+                  
+
+
+                  )";
 ?>
 <!doctype html>
 <html lang="en">
@@ -25,13 +46,10 @@ session_start();
   <script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
   </head>
   <body>
-    
-    <?php include("cabecalio.php"); ?>
+      <?php include("cabecalio.php"); ?>
     <!-- END header -->
-
    <br><br>
     <!-- END section -->
-    
     <section class="site-section">
       <div class="container">
         <div class="row justify-content-center">
@@ -39,17 +57,22 @@ session_start();
             <div class="form-wrap">
               <h2 class="mb-5">Cadastro de Passeios</h2>
 
-              <form action="upload.php" method="post" enctype="multipart/form-data">
-                  
+              <form action="conexao.php" method="post" enctype="multipart/form-data">
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Nome do Passeio</label>
+                      <input type="text" name="nomedopasseio" class="form-control py-2 ">
+                    </div>
+                  </div>
                   
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="name">Descrição</label>
-                      <input type="text" id="descricao" name="descricao" class="form-control py-2 ">
+                      <input type="text" name="descricao" class="form-control py-2 ">
                     </div>
                   </div>
                   
-                  <input type="file" name="fotodopasseio" id="fotodopasseio"><br><br>
+                  <input type="file" name="fotodopasseio" multiple><br><br>
 
                                        
                   

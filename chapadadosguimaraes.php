@@ -56,7 +56,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/cidade de pedra.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Cidade de Pedras</a></h2>
+                      <h2 class="heading"><a href="destinos/cidade-de-pedra.php">Cidade de Pedras</a></h2>
                       <p class="mb-4">Circuito de cachoeiras, trilha tranquila com várias opções de banho e cachoeiras para contemplação. Além da opção de almoço incluso no passeio.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -74,7 +74,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                       <a href="course-single.html"><img src="images/águas do cerrado.jpg" alt="Image" class="img-fluid"></a>
                     </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Caminho das Águas</a></h2>
+                      <h2 class="heading"><a href="destinos/caminho-das-aguas.php">Caminho das Águas</a></h2>
                       <p class="mb-4">Circuito de 7 cachoeiras com belezas cênicas em uma variedade de ambientes, além da contemplação de diferentes espécies de flora e fauna do Cerrado </p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -91,7 +91,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Cachoeira do Pingador</a></h2>
+                    <h2 class="heading"><a href="destinos/cachoeiradopindagor.php">Cachoeira do Pingador</a></h2>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                     <div class="meta d-flex align-items-center">
                       <div class="number">
@@ -109,7 +109,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Circuito das Cavernas</a></h2>
+                      <h2 class="heading"><a href="destinos/circuitodascavernas">Circuito das Cavernas</a></h2>
                       <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -127,7 +127,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                       <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
                     </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Boia Cros Rio Paciência</a></h2>
+                      <h2 class="heading"><a href="boiacrossriopaciencia">Boia Cros Rio Paciência</a></h2>
                       <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -144,7 +144,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/vale do rio claro.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Vale do Rio Claro e Poço das Antas</a></h2>
+                    <h2 class="heading"><a href="vale-do-rio-claro.php">Vale do Rio Claro e Poço das Antas</a></h2>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                     <div class="meta d-flex align-items-center">
                       <div class="number">
@@ -162,7 +162,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/morro de são jerônimo.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Morro de São Jerônimo</a></h2>
+                      <h2 class="heading"><a href="destinos/morro-de-sao-jeronimo.php">Morro de São Jerônimo</a></h2>
                       <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -180,7 +180,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                       <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
                     </figure>
                     <div class="text">
-                      <h2 class="heading"><a href="#">Cachoeira do Indío e Jamacá</a></h2>
+                      <h2 class="heading"><a href="destinos/cachoeira-do-indio.php">Cachoeira do Indío e Jamacá</a></h2>
                       <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
@@ -197,7 +197,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Cachoeira da Geladeira</a></h2>
+                    <h2 class="heading"><a href="destinos/cachoeiradageladeira.php">Cachoeira da Geladeira</a></h2>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                     <div class="meta d-flex align-items-center">
                       <div class="number">
@@ -216,7 +216,7 @@ equidistante entre o Atlântico e o Pacífico.</p>
                     <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
                   </figure>
                   <div class="text">
-                    <h2 class="heading"><a href="#">Cachoeira da Tartaruga</a></h2>
+                    <h2 class="heading"><a href="destinos/cachoeiradatartaruga">Cachoeira da Tartaruga</a></h2>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
                     <div class="meta d-flex align-items-center">
                       <div class="number">

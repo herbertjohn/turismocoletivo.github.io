@@ -1,5 +1,25 @@
 <?php
 session_start();
+ob_start();
+$btncadastro = filter_input(IMPUT_POST, 'btncadastro', FILTER_SANITIZE_STRING);
+if($btncadastro){
+  include_once 'cadastrando.php';
+  $dados = filter_imput_array(IMPUT_POST, FILTER_DEFAULT);
+    //var_dump($dados);
+  $dados['senha'] = password_hash ($dados['senha'], PASSWORD_DEFAULT);
+
+  $result_uruario = "INSERT INTO cadastro (nome, email, senha) VALUES (
+                  '" .$dado['nome']. "',
+                  '" .$dado['email']. "',
+                  '" .$dado['senha']. "',
+                  
+
+
+                  )";
+
+  $resultado_usuario = mysqli_query($conexao, $result_uruario);
+
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -38,36 +58,31 @@ session_start();
           <div class="col-md-7">
             <div class="form-wrap">
               <h2 class="mb-5">Cadastre-se e garanta sua vaga</h2>
-              <form method="post" action="cadastrando.php">
+              <form method="post" action="">
                   
                   <div class="row">
-                    <div class="col-md-12 form-group">
+                    <div class="col-md-12">
                       <label for="name">ID</label>
-                      <input type="text" id="id" name="id" class="form-control py-2">
+                      <input type="text" name="nome" id="nome" class="form-control py-2">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="name">Email</label>
-                      <input type="text" id="email" name="email" class="form-control py-2">
+                      <input type="text" name="email" id="email" class="form-control py-2">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
                       <label for="name">Senha</label>
-                      <input type="password" id="senha" name="senha" class="form-control py-2 ">
+                      <input type="password" name="senha" id="senha" class="form-control py-2 ">
                     </div>
                   </div>
-                  <div class="row mb-5">
-                    <div class="col-md-12 form-group">
-                      <label for="name">Repita a senha</label>
-                      <input type="password" id="repitaasenha" name="repitaasenha" class="form-control py-2">
-                    </div>
-                  </div>
+                 
                   
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="submit" name="btncadastro" id="btncadastro" value="Cadastro" class="btn btn-primary px-5 py-2">
+                      <input type="submit" name="btncadastro" value="Cadastro" class="btn btn-primary px-5 py-2">
                     </div>
                   </div>
                 </form>

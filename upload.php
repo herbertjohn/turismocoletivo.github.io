@@ -1,20 +1,45 @@
 <?php 
-$nome_temporario=$_FILES["Arquivo"]["tmp_name"];
-$nome_real=$_FILES["Arquivo"]["name"];
-copy($nome_temporario,"$nome_real"); 
 
-if(!move_uploaded_file($file, $dest)) { // Executa o
-comando do upload no servidor
-   echo "Não foi possível
-enviar o arquivo!"; /* Caso não foi possível
-enviar o arquivo,
-   mostra o erro. */
-} else {
-   echo "Arquivo enviado com sucesso!";
-/* Caso o arquivo tenha sido enviado
-   com sucesso, mostra a mensagem de
-sucesso. */
-}
-header("Location: testeupload.php");
+include_once("conexao.php");
+$arquivo = $_FILES['arquivo']['name'];
+
+//Pasta onde o arquivo vai ser salvo
+$_UP['pasta'] = '/images/upload/';
+
+//tamanho maximo da imagem 
+$_UP['tamanho'] = 1024*1024*100; //5mb
+
+
+//tamanho maximo da imagem 
+$_UP['extensoes'] = array('png', 'jpg', 'jpeg', 'gif');
+
+//tamanho maximo da imagem 
+$_UP['renomeia'] = 'false';
+
+
+
+//array com os tipos de erros de upload do php
+	
+$_UP['erros'][0] = 'Não houve erro';
+$_UP['erros'][1] = 'Arquivo no upload é maior que o limite do php';
+$_UP['erros'][2] = 'o arquivo ultrapassa o limite de tamanho especificado no HTML';
+$_UP['erros'][3] = 'o upload do arquivo foi feito parcialmente';
+$_UP['erros'][4] = 'não foi feito o upload do arquivo';
+//verifica se houve algum erro com o upload. se sim, exibe a mensagem do erro
+	if($_FILES['arquivo']['error'] != 0){
+		die("Não foi possivel fazer o upload, erro: <br />". $UP['erros'][$_FILES['arquivo']['error']]);
+		 //Para a execução do script
+	}
+
+//faz a veriicação da extesão do arquivo
+	$extensao = strtolower(end(explode('.', $_FILES['arquivo']['name'])));
+	if (array_search($extensao, $_UP['extensoes'])=== false) {
+		echo "
+		<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/turismocoletivo.github.io/cadastrodepasseios.php'>
+		<script type=\"text/javascript\">
+			alert(\"A imagem não foi cadastrada, extensão invalida.\");
+		";
+	}
+
 
 ?>

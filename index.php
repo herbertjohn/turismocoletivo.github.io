@@ -168,155 +168,60 @@ session_start();
         </div>
       </div>
 
-
-      <div class="container-fluid block-11 element-animate">
-        <div class="nonloop-block-11 owl-carousel">
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="images/águas do cerrado.jpg" alt="aguas do cerrado" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="destinos\aguas-do-cerrado.php">Circuito de cachoeiras Águas do Cerrado</a></h2>
-                  <p class="mb-4">Trilha de fácil acesso pelo exuberante cerrado, totalizando 7km e meio ida e volta passando pelo pocinho do amor, por 5 Cachoeiras para banho e mais duas para contemplação. A maior chega a medir aproximadamente 30m de queda livre.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>22/07</span>
+      <div class="row">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="images/cidade de pedra.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="destinos/cidade-de-pedra.php">Cidade de Pedras</a></h2>
+                      <p class="mb-4">Circuito de cachoeiras, trilha tranquila com várias opções de banho e cachoeiras para contemplação. Além da opção de almoço incluso no passeio.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>2,219/6,000</span>
+                        </div>
+                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
+                      </div>
                     </div>
-                    <div class="price text-right"><span>R$ 60,00</span></div>
                   </div>
-                </div>
+                
               </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="images/caminho das águas.jpg" alt="circuito de cachoeiras caminho das águas" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="destinos\caminho-das-aguas.php">Circuito de Cachoeiras Caminho das Águas</a></h2>
-                  <p class="mb-4">De nível moderado, com alguns trechos em desnível, totaliza 7km ida e volta, passa pelas cachoeiras "Andorinha", "Prainha", "Degrau", "Pulo", "Sete de Setembro" e ainda pela Casa de Pedras, uma gruta histórica. Quem não conhece vale muito a pena conhecer e quem já conhece, vale a pena ver de novo.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>22/07</span>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                    <figure>
+                      <a href="course-single.html"><img src="images/águas do cerrado.jpg" alt="Image" class="img-fluid"></a>
+                    </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="destinos/caminho-das-aguas.php">Caminho das Águas</a></h2>
+                      <p class="mb-4">Circuito de 7 cachoeiras com belezas cênicas em uma variedade de ambientes, além da contemplação de diferentes espécies de flora e fauna do Cerrado </p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>1,903/3,000</span>
+                        </div>
+                        <div class="price text-right"><span>$10.99</span></div>
+                      </div>
                     </div>
-                    <div class="price text-right"><span>R$ 60,00</span></div>
                   </div>
                 </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="images/vale do rio claro.jpg" alt="Vale do Rio Claro" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="vale-do-rio-claro.php">Vale do Rio Claro - Crista do Galo e poço das Antas</a></h2>
-                <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>28/07</span>
-                  </div>
-                  <div class="price text-right"><span>R$ 80,00</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="#">Morro de São Jerônimo</a></h2>
-                <p class="mb-4">É uma caminhada que exige um pouco, mas é muito mágica! Visual maravilhoso durante todo o trajeto e muita adrenalina. A trilha perfaz um total de 14km ida e volta. Destes, há um percurso de 300 metros do que chamamos "escalaminhada" pois não requer uso de equipamentos para escalada. Durante a subida, há dois momentos que exigem mais, mas são transpostos com tranquilidade.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>29/07</span>
-                  </div>
-                  <div class="price text-right"><del class="mr-3">R$ 20,00</del><span>Free</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="images/vale da lua.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="#">Vale da lua</a></h2>
-                  <p class="mb-4">O belíssimo canyon no rio Jauquara nos aguarda com todo o seu encanto e com a segurança de sempre da nossa equipe. Trilha leve com muita água, vales, rochas e uma riquíssima flora. O trajeto de carro é de 150 km a partir de Cuiabá, sendo 38 de estrada de terra em boas condições.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>15/07</span>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                  <div class="text">
+                    <h2 class="heading"><a href="destinos/cachoeiradopindagor.php.php">Cachoeira do Pingador</a></h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui neque sint eveniet tempore sapiente.</p>
+                    <div class="meta d-flex align-items-center">
+                      <div class="number">
+                        <span>23/100</span>
+                      </div>
+                      <div class="price text-right"><del class="mr-3">$102.99</del><span>$39.00</span></div>
                     </div>
-                    <div class="price text-right"><span>R$ 100,00</span></div>
                   </div>
                 </div>
               </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="images/vale do rio claro.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="#">Crista do Galo e poço da Anta</a></h2>
-                  <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>01/07</span>
-                    </div>
-                    <div class="price text-right"><span>R$ 80,00</span></div>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="images/descriçãotc.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="destinos\cidade-de-pedra.php">Cidade de pedras</a></h2>
-                <p class="mb-4">O percurso totaliza 2km ida e volta da mais pura beleza. O acesso de 10km até o início da trilha precisa ser de carro traçado já incluso no valor. Para viabilidade do passeio será necessário um grupo com no mínimo 5 pessoas e no máximo 12.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>26/07</span>
-                  </div>
-                  <div class="price text-right"><span>R$ 150,00</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="destinos\Sitio-Arqueologico-Santa-Elina.php">Sítio Arqueológico Santa Elina - Jangada</a></h2>
-                <p class="mb-4">Depois da Serra da Capivara, no Piauí, o Santa Elina é segundo mais antigo em vestígios de humanos. Nele foram encontrados cerca de 25 mil objetos que indicam a presença humana.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>27/06</span>
-                  </div>
-                  <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
+      
 
       
     </div>
