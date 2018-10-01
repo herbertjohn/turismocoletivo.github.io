@@ -44,7 +44,7 @@ session_start();
   
             <div class="mb-5 element-animate">
               <h1 class="mb-2">Cachoeira do Pingador</h1>
-              <p class="bcrumb"><a href="../index.php">Início</a> <span class="sep ion-android-arrow-dropright px-2"></span> <a href="../destinos.php">Destinos</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">CCachoeira do Pingador</span></p>
+              <p class="bcrumb"><a href="../index.php">Início</a> <span class="sep ion-android-arrow-dropright px-2"></span> <a href="../destinos.php">Destinos</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Cachoeira do Pingador</span></p>
             </div>
             
           </div>
@@ -63,20 +63,12 @@ session_start();
               <div class="col-md-12">
                         <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
             <figure>
-          <img src="../demo/img/ponte de pedra.jpg" width="100%" />
+          <img src="../images/cachoeiradopingador/cachoeiradopingador1.jpg" width="100%" />
             </figure>
             <figure>
-          <img src="../demo/img/aroejari.jpg" width="100%" />
+          <img src="../images/cachoeiradopingador/cachoeiradopingador2.jpg" width="100%" />
             </figure>
-            <figure>
-          <img src="../demo/img/cachoeira do relogio.jpg" width="100%" />
-            </figure>
-            <figure>
-          <img src="../demo/img/pobejari.jpg" width="100%" /> 
-            </figure>
-            <figure>
-          <img src="../demo/img/kiogobrado.jpg" width="100%" />
-            </figure>
+            
         </div> <!-- // bss-slides --><!-- // content -->   
        
 <script src="../demo/js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
@@ -107,14 +99,12 @@ makeBSS('.num2', opts2);
                 <div class="row mb-5">
                   <div class="col-md-12 pt-5">
                     <h2>Descrição</h2>
-                    <p>Circuito das cavernas em Chapada dos Guimarães. A trilha é de nível fácil com uma extensão de 6 km de ida sem demasiadas irregularidades no terreno. Além das belezas costumeiras do nosso cerrado esta trilha tem um diferencial: possui longos trechos de frescor proporcionados pelo cerradão com arbustos que lembram a floresta amazônica.</p>
-                    <p>O trajeto inclui visita às cavernas Pob Jari, Aroe Jari e Kiogo Brado e à gruta Lagoa Azul e passagem pela Ponte de Pedra. No término da trilha, ainda pode-se refrescar na linda cachoeira do Relógio.
+                    <p>A cachoeira com seus 12 metros de altura é de águas cristalinas, forma-se uma piscina natural onde é possível nadar. Existe uma areia que parece praia, muito indicado para as crianças, pois não é funda.
+
 </p>
-                    <p>RECOMENDAÇÕES:
-Ir de roupa de trilha por cima da roupa de banho, levar lanterna, proteção para o sol, repelente, lanche reforçado e água.</p>
-                    <p>Ponto de encontro no Posto Ipiranga, Chapada dos Guimarães
-Horário: 7h 30
-Término da trilha: Por volta das 16h</p>
+                    <p>O Endereço: Estrada que vai paga a comunidade do pingador no distrito de Água Fria em Chapada dos Guimarães 54km do centro da cidade.
+</p>
+                    
                   </div>
                 </div>
               </div>

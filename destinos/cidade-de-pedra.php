@@ -63,19 +63,22 @@ session_start();
               <div class="col-md-12">
                         <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
             <figure>
-		      <img src="../demo/img/ponte de pedra.jpg" width="100%" />
+		      <img src="../images/cidadedepedra/cidadedepedra4.jpg" width="100%" />
             </figure>
             <figure>
-		      <img src="../demo/img/aroejari.jpg" width="100%" />
+		      <img src="../images/cidadedepedra/cidadedepedra2.jpg" width="100%" />
             </figure>
             <figure>
-		      <img src="../demo/img/cachoeira do relogio.jpg" width="100%" />
+		      <img src="../images/cidadedepedra/cidadedepedra3.jpg" width="100%" />
             </figure>
             <figure>
-		      <img src="../demo/img/pobejari.jpg" width="100%" /> 
+		      <img src="../images/cidadedepedra/cidadedepedra6.jpg" width="100%" /> 
             </figure>
             <figure>
-		      <img src="../demo/img/kiogobrado.jpg" width="100%" />
+		      <img src="../images/cidadedepedra/cidadedepedra5.jpg" width="100%" />
+            </figure>
+            <figure>
+          <img src="../images/cidadedepedra/cidadedepedra1.jpg" width="100%" />
             </figure>
         </div> <!-- // bss-slides --><!-- // content -->   
        
@@ -107,14 +110,9 @@ makeBSS('.num2', opts2);
                 <div class="row mb-5">
                   <div class="col-md-12 pt-5">
                     <h2>Descrição</h2>
-                    <p>Circuito das cavernas em Chapada dos Guimarães. A trilha é de nível fácil com uma extensão de 6 km de ida sem demasiadas irregularidades no terreno. Além das belezas costumeiras do nosso cerrado esta trilha tem um diferencial: possui longos trechos de frescor proporcionados pelo cerradão com arbustos que lembram a floresta amazônica.</p>
-                    <p>O trajeto inclui visita às cavernas Pob Jari, Aroe Jari e Kiogo Brado e à gruta Lagoa Azul e passagem pela Ponte de Pedra. No término da trilha, ainda pode-se refrescar na linda cachoeira do Relógio.
-</p>
-                    <p>RECOMENDAÇÕES:
-Ir de roupa de trilha por cima da roupa de banho, levar lanterna, proteção para o sol, repelente, lanche reforçado e água.</p>
-                    <p>Ponto de encontro no Posto Ipiranga, Chapada dos Guimarães
-Horário: 7h 30
-Término da trilha: Por volta das 16h</p>
+                    <p>Localizada no Parque Nacional de Chapada dos Guimarães com vista para a região do Vale do Rio Claro e paredões de até 350 metros de arenito de  paisagens inesquecívelde formações rochosas esculpidas pelo vento e pela chuva, lembrando ruínas de uma cidade.</p><br>
+
+                    
                   </div>
                 </div>
               </div>
@@ -127,14 +125,14 @@ Término da trilha: Por volta das 16h</p>
             <div class="block-29 mb-5">
               <h2 class="heading">Detalhes do passeio</h2>
               <ul>
-                <li><span class="text-1">Duração:</span> <span class="text-2">8 horas</span></li>
-                <li><span class="text-1">Modalidade:</span> <span class="text-2">Turismo Geológico e Ecoturismo</span></li>
-                <li><span class="text-1">Dificuldade:</span> <span class="text-2">Moderado</span>
+                <li><span class="text-1">Duração:</span> <span class="text-2">4 horas</span></li>
+                <li><span class="text-1">Modalidade:</span> <span class="text-2">Ecoturismo</span></li>
+                <li><span class="text-1">Dificuldade:</span> <span class="text-2">Fácil</span>
                   <ul>
                     <li><span class="text-1">Seguro aventura:</span><img src="../images/inclui.png" width="31" height="25" alt="inclui"></li>
                   </ul>
                 </li>
-                <li><span class="text-1">Equipamento de Segurança:</span> <img src="../images/inclui.png" width="31" height="25" alt="inclui"></li>
+                <li><span class="text-1">Transporte:</span> <img src="../images/inclui.png" width="31" height="25" alt="inclui"></li>
                 <li><span class="text-1">Guia credenciado:</span> <img src="../images/inclui.png" width="31" height="25" alt="inclui"></li>
                 <li><span class="text-1">Preço</span> <span class="text-2">R$ 180.00</span></li>
               </ul>
@@ -147,11 +145,11 @@ Término da trilha: Por volta das 16h</p>
               <h2 class="heading">Turismo Coletivo</h2>
               <h3 class="subheading">Agência de Turismo</h3>
               <p>
-                <a href="#" class="fa fa-twitter p-2"></a>
-                <a href="#" class="fa fa-facebook p-2"></a>
-                <a href="#" class="fa fa-linkedin p-2"></a>
+                <a href="https://www.twitter.com/turismocoletivo/" class="fa fa-twitter p-2"></a>
+                <a href="https://www.facebook.com/turismocoletivo/" class="fa fa-facebook p-2"></a>
+                <a href="https://www.instagram.com/turismocoletivo/" class="fa fa-instagram p-2"></a>
               </p>
-              <p>Natureza pura, trilhas, camping, contemplação, rapel, cavalgadas, rafting, cachoeira e vida saudável.</p>
+              <p></p>
               
             </div>
 
@@ -159,12 +157,12 @@ Término da trilha: Por volta das 16h</p>
             <div class="block-26">
               <h3 class="heading">Tags</h3>
               <ul>
-                <li><a href="#">aroejari</a></li>
-                <li><a href="#">kiogobrado</a></li>
-                <li><a href="#">ponte de pedra</a></li>
-                <li><a href="#">circuito das cavernas</a></li>
-                <li><a href="#">pob jari</a></li>
-                <li><a href="#">cachoeira do relógio</a></li>
+                <li><a href="#">Cidade de Pedra</a></li>
+                <li><a href="#">Parque Nacional</a></li>
+                <li><a href="#">Chapada dos Guimarães</a></li>
+                <li><a href="#">ICMBio</a></li>
+                <li><a href="#">Arenito</a></li>
+                <li><a href="#">Paissagens</a></li>
               </ul>
             </div>
 
@@ -184,50 +182,33 @@ Término da trilha: Por volta das 16h</p>
         </div>
       </div>
       
-      <div class="container-fluid block-11 element-animate">
-        <div class="nonloop-block-11 owl-carousel">
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="aguas-do-cerrado.php">Circuito de cachoeiras Águas do Cerrado</a></h2>
-                  <p class="mb-4">Trilha de fácil acesso pelo exuberante cerrado, totalizando 7km e meio ida e volta passando pelo pocinho do amor, por 5 Cachoeiras para banho e mais duas para contemplação. A maior chega a medir aproximadamente 30m de queda livre.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>22/07</span>
+       <div class="col-md-6 col-lg-12 order-md-2">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    
+                    <a href="course-single.html"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                    <div class="text">
+                      <h2 class="heading"><a href="destinos/caminho-das-aguas.php">Circuito de Cachoeiras Caminho das Águas</a></h2>
+                      <p class="mb-4">De nível moderado, com alguns trechos em desnível, totaliza 7km ida e volta, passa pelas cachoeiras "Andorinha", "Prainha", "Degrau", "Pulo", "Sete de Setembro" e ainda pela Casa de Pedras, uma gruta histórica. Quem não conhece vale muito a pena conhecer e quem já conhece, vale a pena ver de novo.</p>
+                      <div class="meta d-flex align-items-center">
+                        <div class="number">
+                          <span>2,219/6,000</span>
+                        </div>
+                        <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
+                      </div>
                     </div>
-                    <div class="price text-right"><span>R$ 60,00</span></div>
                   </div>
-                </div>
+                
               </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="../images/img_3.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="caminho-das-aguas.php">Circuito de Cachoeiras Caminho das Águas</a></h2>
-                  <p class="mb-4">De nível moderado, com alguns trechos em desnível, totaliza 7km ida e volta, passa pelas cachoeiras "Andorinha", "Prainha", "Degrau", "Pulo", "Sete de Setembro" e ainda pela Casa de Pedras, uma gruta histórica. Quem não conhece vale muito a pena conhecer e quem já conhece, vale a pena ver de novo.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>22/07</span>
-                    </div>
-                    <div class="price text-right"><span>R$ 60,00</span></div>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="../images/img_2.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                    <figure>
+                      <a href="course-single.html"><img src="../images/vale do rio claro.jpg" alt="Image" class="img-fluid"></a>
+                    </figure>
+                    <div class="text">
                 <h2 class="heading"><a href="vale-do-rio-claro.php">Vale do Rio Claro - Crista do Galo e poço das Antas</a></h2>
                 <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
                 <div class="meta d-flex align-items-center">
@@ -237,98 +218,29 @@ Término da trilha: Por volta das 16h</p>
                   <div class="price text-right"><span>R$ 80,00</span></div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
+                  
+                  </div>
+                </div>
+              <div class="col-md-4 col-lg-4 mb-4">
+                <div class="block-19">
+                  <figure>
+                    <a href="course-single.html"><img src="../images/morro de são jerônimo.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                  <div class="text">
                 <h2 class="heading"><a href="morro-de-sao-jeronimo.php">Morro de São Jerônimo</a></h2>
                 <p class="mb-4">É uma caminhada que exige um pouco, mas é muito mágica! Visual maravilhoso durante todo o trajeto e muita adrenalina. A trilha perfaz um total de 14km ida e volta. Destes, há um percurso de 300 metros do que chamamos "escalaminhada" pois não requer uso de equipamentos para escalada. Durante a subida, há dois momentos que exigem mais, mas são transpostos com tranquilidade.</p>
                 <div class="meta d-flex align-items-center">
                   <div class="number">
                     <span>29/07</span>
                   </div>
-                  <div class="price text-right"><del class="mr-3">R$ 20,00</del><span>Free</span></div>
+                  <div class="price text-right"><del class="mr-3">R$ 60,00</del><span>Free</span></div>
                 </div>
               </div>
-            </div>
-          </div>
+                </div>
+              </div>
 
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="Vale-da-Lua.php">Vale da lua</a></h2>
-                  <p class="mb-4">O belíssimo canyon no rio Jauquara nos aguarda com todo o seu encanto e com a segurança de sempre da nossa equipe. Trilha leve com muita água, vales, rochas e uma riquíssima flora. O trajeto de carro é de 150 km a partir de Cuiabá, sendo 38 de estrada de terra em boas condições.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>15/07</span>
-                    </div>
-                    <div class="price text-right"><span>R$ 100,00</span></div>
-                  </div>
-                </div>
-              </div>
-          </div>
 
-          <div class="item">
-            <div class="block-19">
-                <figure>
-                  <img src="../images/img_3.jpg" alt="Image" class="img-fluid">
-                </figure>
-                <div class="text">
-                  <h2 class="heading"><a href="vale-do-rio-claro.php">Crista do Galo e poço da Anta</a></h2>
-                  <p class="mb-4">Trilha leve em torno de 8km ida e volta pelo Cerrado até uma elevação no vale que abriga a formação rochosa esculpida pela ação do tempo que lembra a crista de um galo. De lá é possível uma visualização 360° dos paredões areníticos, morrarias e veredas. Depois iremos até a nascente do Rio Claro para um gostoso banho nas águas límpidas com peixinhos.</p>
-                  <div class="meta d-flex align-items-center">
-                    <div class="number">
-                      <span>01/07</span>
-                    </div>
-                    <div class="price text-right"><span>R$ 80,00</span></div>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="../images/img_2.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="cidade-de-pedra.php">Cidade de pedras</a></h2>
-                <p class="mb-4">O percurso totaliza 2km ida e volta da mais pura beleza. O acesso de 10km até o início da trilha precisa ser de carro traçado já incluso no valor. Para viabilidade do passeio será necessário um grupo com no mínimo 5 pessoas e no máximo 12.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>26/07</span>
-                  </div>
-                  <div class="price text-right"><span>R$ 150,00</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="block-19">
-              <figure>
-                <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
-              </figure>
-              <div class="text">
-                <h2 class="heading"><a href="Sitio-Arqueologico-Santa-Elina.php">Sítio Arqueológico Santa Elina - Jangada</a></h2>
-                <p class="mb-4">Depois da Serra da Capivara, no Piauí, o Santa Elina é segundo mais antigo em vestígios de humanos. Nele foram encontrados cerca de 25 mil objetos que indicam a presença humana.</p>
-                <div class="meta d-flex align-items-center">
-                  <div class="number">
-                    <span>27/06</span>
-                  </div>
-                  <div class="price text-right"><del class="mr-3">$23</del><span>Free</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           
         </div>
       </div>

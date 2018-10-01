@@ -33,7 +33,7 @@ session_start();
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-7 text-center section-heading">
-            <h2 class="text-primary heading">PROGRAMESSE</h2>
+            <h2 class="text-primary heading">PROGRAME-SE</h2>
             <p>Roteiros de passeios agêndados em Mato Grosso.</p>
            
           </div>

@@ -168,7 +168,8 @@ session_start();
         </div>
       </div>
 
-      <div class="row">
+          <div class="col-md-6 col-lg-12 order-md-2">
+            <div class="row">
               <div class="col-md-4 col-lg-4 mb-4">
                 <div class="block-19">
                   <figure>
@@ -194,7 +195,7 @@ session_start();
                     </figure>
                     <div class="text">
                       <h2 class="heading"><a href="destinos/caminho-das-aguas.php">Caminho das Águas</a></h2>
-                      <p class="mb-4">Circuito de 7 cachoeiras com belezas cênicas em uma variedade de ambientes, além da contemplação de diferentes espécies de flora e fauna do Cerrado </p>
+                      <p class="mb-4">Belezas cênicas em uma variedade de ambientes, além da contemplação de diferentes espécies de flora e fauna do Cerrado no circuito de cachoeiras.</p>
                       <div class="meta d-flex align-items-center">
                         <div class="number">
                           <span>1,903/3,000</span>
